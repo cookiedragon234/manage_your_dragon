@@ -1,3 +1,3 @@
 <?php
-//check is login is correct
+//check if login is correct
 ?>
