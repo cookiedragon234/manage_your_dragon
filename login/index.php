@@ -9,6 +9,14 @@
   			<input type="password" name="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1"><br>
   			<input class="btn btn-default" type="submit" name="Submit">
   		</form>
+  		<style>
+
+  		body{
+  			font-family: "Segoe UI";
+  			margin: auto;
+  		}
+
+  		</style>
 <?php
 	include("../functions/footer.php");
 ?>

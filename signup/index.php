@@ -5,6 +5,11 @@
 	</head>
 	<body>
 		<h1>Manage Your Dragon-Signup</h1>
+		<?php
+		if($_GET['duplicateusername']='true'){
+			echo 'The Email/Username you entered has already been taken. Please choose a different username...';
+		}
+		?>
 		<form action="signupsend.php" method="post">
 			<span class="input-group-addon" id="basic-addon1">Name</span><br>
   			<input type="text" name="name" class="form-control" placeholder="Name" aria-describedby="basic-addon1"><br>
